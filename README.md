@@ -14,4 +14,7 @@
   "start": "ts-node-dev src/index.ts"
 }
 ```
+6. Create the Dockerfile to build the image and .Dockerignore to add the node_modules
+7. Build the image `docker build -t roccosada/auth .`
+8. Load the image into the kubernetes cluster within a Deployment
 
